@@ -26,10 +26,10 @@ Insérer image schéma électronique
 Insérer image beard board
 
 ## Software : 
-The following behavior has been push in the arduino nano : 
-1- When the arduino is powered, the full power is send to the fan, green led goes on, other stay off. 
-2- If the button is pressed, the fan speed is devide per 2. Orange led goes on, other stay off. 
-3- If the button is pressed a 2nd time, fan is switch off. Red led goes on, other stay off. 
+The following behavior has been push in the arduino nano :  
+1- When the arduino is powered, the full power is send to the fan, green led goes on, other stay off.  
+2- If the button is pressed, the fan speed is devide per 2. Orange led goes on, other stay off.  
+3- If the button is pressed a 2nd time, fan is switch off. Red led goes on, other stay off.  
 
 And so on, and so on... 
 
