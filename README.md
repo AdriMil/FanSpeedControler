@@ -25,6 +25,12 @@ Insérer image schéma électronique
 ### Wiring - Bread board wiring
 Insérer image beard board
 
+### PCB design
+PCB has been created following guidlines. The pcb must be as the same size or smaller than the arduino. More the pcb is smaller, less is the 3D printing time.  
+
+### GearBox design
+PCB 3d can be imported on the 3D modeling software. Then I can design the 3d gearbox with the exact lenght.  
+
 ## Software : 
 The following behavior has been push in the arduino nano :  
 1- When the arduino is powered, the full power is send to the fan, green led goes on, other stay off.  
@@ -33,8 +39,7 @@ The following behavior has been push in the arduino nano :
 
 And so on, and so on... 
 
-
   
 # Sources
-[Arduino Nano Schematic](https://www.teachmemicro.com/wp-content/uploads/2019/06/Arduino-Nano-pinout.jpg)
-[Fan control with transistor](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/) lde
+[Arduino Nano Schematic](https://www.teachmemicro.com/wp-content/uploads/2019/06/Arduino-Nano-pinout.jpg)  
+[Fan control with transistor](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/)  
