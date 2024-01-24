@@ -2,8 +2,11 @@ name: pre-commit Check
 
 on:
   push:
-    branches: 
-      - Install-Precommit
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
   pre-commit:
