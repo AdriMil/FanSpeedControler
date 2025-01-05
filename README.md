@@ -1,35 +1,33 @@
-# RegulationVentilateur
+# Fan Controler
 
 ## Description
-This repo gather all information to create an electronic project to control a fan speed.
-- A Pcb has been designed. 
-- 3D printing is uesd for the plastic gearbox.
-
-## Pictures: 
-
-Inserer schéma electronique
-Insérer Boitier
-Inserver résultat final 
+This repository gather all information to create an electronic project to control a fan speed.
 
 ## Hardware
-For this  project the following electronic components have been use. You can check the electronic schematic to exact values of resistors
+For this  project the following electronic components are used.
 - Arduino Nano
 - 2 resistors
-- 1 four pins push button
+- 1 push button
 - 4 Leds
 - 1 transistor npn2222
 - 5v fan (computer cooling fan)
-### Wiring - Electronical schematic
-Insérer image schéma électronique
 
-### Wiring - Bread board wiring
-Insérer image beard board
+### Wiring - Electronical schema
+An electronical schema has been created according [this source](https://www.instructables.com/PWM-Regulated-Fan-Based-on-CPU-Temperature-for-Ras/). 
+![Electronical schema](./Documentation/Pictures/Schema.png)
+
+The transistor npn2222 allow to dim the fan speed because my computer fan is only an On/Off device. \
+A connector will be used to plug and unplug easily the fan. \
+The arduino board won't be soldered directly on the PCB, 2 15x1 sockets connectors will be used.
 
 ### PCB design
-PCB has been created following guidlines. The pcb must be as the same size or smaller than the arduino. More the pcb is smaller, less is the 3D printing time.  
+PCB has been designed as well on Kicad. The pcb must get same size or smaller than the arduino board. See 3D simulated PCB:
+
+![PCBFront](./Documentation/Pictures/3D%20Front.png)
+![PCBBack](./Documentation/Pictures/3D%20Back.png)
 
 ### GearBox design
-PCB 3d can be imported on the 3D modeling software. Then I can design the 3d gearbox with the exact lenght.  
+3D PCB can be imported on the 3D software (Fusion 360 for example). Then a 3D design can be created based on the PCB shape. 
 
 ## Software : 
 The following behavior has been push in the arduino nano :  
